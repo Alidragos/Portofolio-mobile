@@ -1,3 +1,79 @@
-h1 {
-  font-size: 20px;
+body {
+  background: rgb(212, 202, 202);
+}
+
+.mobile-container {
+  max-width: 375px;
+  margin: auto;
+  margin-top: 60px;
+  background-image: url('header-background-mobile.png');
+  height: 718px;
+  border-radius: 10px;
+}
+
+.container {
+  max-width: 375px;
+  margin: auto;
+  margin-top: 60px;
+  height: 718px;
+  border-radius: 10px;
+  border: 1px solid #b22222;
+}
+
+.box-one {
+  background-color: rgb(207, 171, 171);
+  width: 275px;
+  padding: 50px;
+  margin-top: px;
+  text-align: center;
+}
+
+.box-two {
+  border: 1px solid  rgb(207, 171, 171);
+  text-align: center;
+  background-color: rgb(207, 171, 171);
+}
+
+.box-three {
+  text-align: center;
+}
+
+.box-five {
+  background-color: #f5e2e2;
+  padding: 20px;
+}
+
+.box-six {
+  background-color: #f5e2e2;
+  padding: 20px;
+}
+
+.box-seven {
+  background-color: #f5e2e2;
+  padding: 20px;
+}
+
+#content {
+  padding: 0.5rem;
+  display: flex;
+}
+
+#left,
+#right {
+  padding: 0.5rem;
+  flex-grow: 1;
+  color: #fff;
+}
+
+li {
+  display: inline;
+  padding: 0.5rem;
+  color: rgb(28, 21, 124);
+}
+
+.bunn {
+  border-color: rgb(45, 15, 114);
+  border-radius: 50px 20px;
+  margin-left: 20px;
+  color: #170761;
 }
